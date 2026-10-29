@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Destellos de Gracia Radio · Liora y Panorama</title><meta name="description" content="Escucha prédicas bíblicas, la voz de Liora y piano instrumental. Panorama: información y reflexión cristiana desde Puerto Rico."><link rel="stylesheet" href="estilo.css"></head>
+<body><main class="radio">
+<div class="brand">Un espacio para escuchar la Palabra</div><div class="mark" aria-hidden="true">✦</div>
+<h1>Destellos de Gracia<br>Radio</h1>
+<p>La Palabra que ilumina tu camino.</p><div class="badge">RADIO EN PRUEBAS · LIORA · PIANO</div>
+<div class="line"></div>
+<p id="clock" class="count"></p><p id="kind" class="count">Lista para comenzar</p><h2 id="title" class="track">Tu emisora, acompañándote</h2>
+<audio id="player" controls preload="metadata" aria-label="Radio continua"></audio>
+<div class="controls"><button id="start" type="button">▶ Encender radio</button><button id="next" type="button">Siguiente bloque ⏭</button></div>
+<p id="status" class="status" role="status" aria-live="polite">Pulsa Encender radio. Las prédicas no se repiten dentro de cada ronda.</p>
+<p id="round" class="count"></p>
+<p class="note">Pulsa Encender radio para escuchar. Cada persona inicia su propia secuencia; esta primera versión no es una señal común en vivo. Mantén la página abierta y la conexión a internet activa. Los reportes esperan a que termine el audio en curso.</p>
+<div class="line"></div><h2>Panorama durante el día</h2>
+<label class="options"><input id="schedule" type="checkbox" checked> Incorporar automáticamente los reportes vigentes y revisados</label>
+<p id="scheduleStatus" class="status" role="status" aria-live="polite"></p>
+<p class="note">Los tiempos son orientativos. No aceleramos a Liora para alcanzar una duración exacta. Si falta el reporte del horario actual, siguen las prédicas y el piano; no se acumulan ediciones atrasadas.</p>
+<div id="slots"></div><p id="archiveStatus" class="note" hidden></p>
+<details hidden><summary>Cargar un reporte del día</summary>
+<div class="upload-row"><label>Espacio<select id="slot"></select></label><label>Fecha de la edición<input id="date" type="date"></label></div>
+<label class="options"><input id="reviewed" type="checkbox"> Confirmo que revisé el contenido y que su fecha es correcta</label>
+<input id="upload" type="file" accept="audio/*,.wav,.m4a,.mp3"><p id="uploadStatus" class="status" role="status" aria-live="polite"></p>
+<p class="note">Este control incorpora un archivo de audio terminado. No investiga noticias ni genera automáticamente una edición nueva.</p>
+</details>
+<details><summary>Escuchar el piloto aprobado</summary><p class="note">Archivo histórico del 28 de octubre de 2026, de aproximadamente 13:45. Se puede escuchar como prueba, pero no se utiliza automáticamente como un reporte nuevo del día.</p><button id="pilot" type="button">Añadir el piloto al próximo cambio de bloque</button><p id="pilotStatus" class="note"></p><p class="note"><a href="guion-piloto.html">Guion y fuentes del piloto</a></p></details>
+<div class="line"></div><h2>Tu biblioteca de prédicas</h2><label class="picker" for="search">Buscar por título</label><input class="search" id="search" type="search" placeholder="Buscar entre las 227 prédicas…"><p id="count" class="count"></p><ol id="library" class="library"></ol>
+<details><summary>Actividad de esta sesión</summary><ol id="log" class="log"></ol></details>
+<footer>DESTELLOS DE GRACIA RADIO · LIORA · PUERTO RICO</footer>
+</main><script src="catalogo.js"></script><script src="motor.js"></script><script src="radio.js"></script></body></html>
