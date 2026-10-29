@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "slot": "p15",
+    "date": "2026-10-29",
+    "reviewed": true,
+    "duration": 670.501625,
+    "title": "Panorama 12 · Edición de la tarde · 29 de octubre de 2026",
+    "url": "panorama-2026-10-29-tarde.m4a",
+    "sources": "panorama-2026-10-29.html",
+    "editorial_cutoff": "2026-10-29T16:00:00-04:00"
+  }
+]
