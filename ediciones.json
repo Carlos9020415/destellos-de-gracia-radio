@@ -1,12 +1,12 @@
 [
   {
-    "slot": "p15",
-    "date": "2026-10-29",
+    "date": "2026-11-05",
+    "slot": "p08",
+    "title": "Panorama · noticias del 2026-11-05",
     "reviewed": true,
-    "duration": 670.501625,
-    "title": "Panorama 12 · Edición de la tarde · 29 de octubre de 2026",
-    "url": "panorama-2026-10-29-tarde.m4a",
-    "sources": "panorama-2026-10-29.html",
-    "editorial_cutoff": "2026-10-29T16:00:00-04:00"
+    "duration": 561.5097083333334,
+    "url": "https://carlos9020415.github.io/destellos-de-gracia-radio/panorama-diario.m4a?v=2026-11-05",
+    "sources": "https://carlos9020415.github.io/destellos-de-gracia-radio/panorama-diario.html?v=2026-11-05",
+    "editorial_cutoff": "2026-11-05T08:43:00-04:00"
   }
 ]
